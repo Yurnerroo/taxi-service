@@ -1,1 +1,1 @@
-web: gunicorn py-taxi-service-forms.wsgi --log-file -
+web: gunicorn taxi_service.wsgi --log-file -
